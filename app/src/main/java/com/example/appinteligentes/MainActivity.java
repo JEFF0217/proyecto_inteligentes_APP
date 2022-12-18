@@ -209,6 +209,7 @@ public class MainActivity extends AppCompatActivity {
                 // set encoded text on textview
                 textView.setText(sImage);
 
+
                 byte[] bytes2=Base64.decode(sImage,Base64.DEFAULT);
                 // Initialize bitmap
                 Bitmap bitmap2= BitmapFactory.decodeByteArray(bytes,0,bytes2.length);
